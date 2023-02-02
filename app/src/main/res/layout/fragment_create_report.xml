@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="charmingdev.d.notify.fragments.CreateReport">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_multiline"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:theme="@style/opensans_light"
+            android:textSize="16sp"
+            android:hint="@string/where"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:inputType="textMultiLine"
+            android:textAlignment="textStart" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/autoCompleteTextView"
+            android:src="@drawable/powered_by_google_light"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/autoCompleteTextView"
+            android:layout_marginTop="20dp"
+            android:text="Selected Place:"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/select"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_multiline"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:theme="@style/opensans_light"
+            android:textSize="16sp"
+            android:id="@+id/description"
+            android:hint="@string/description"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:inputType="textMultiLine"
+            android:lines="20"
+            android:minLines="5"
+            android:textAlignment="textStart"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            />
+        <Button
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_simple"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/choosePictures"
+            android:textColor="@color/colorPlain"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/ic_insert_photo_white_24dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:drawablePadding="10dp"
+            android:textAlignment="textStart"
+            android:drawableRight="@drawable/ic_add_white_24dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_simple"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:theme="@style/opensans_light"
+            android:textSize="16sp"
+            android:id="@+id/submit"
+            android:hint="@string/submit"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPlain"
+            />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:id="@+id/upload"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

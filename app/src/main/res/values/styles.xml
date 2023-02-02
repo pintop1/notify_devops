@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- fonts family -->
+    <style name="opensans_bold">
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="opensans_bold_italic">
+        <item name="android:fontFamily">@font/opensans_bolditalic</item>
+    </style>
+
+    <style name="opensans_bold_extra_bold">
+        <item name="android:fontFamily">@font/opensans_extrabold</item>
+    </style>
+
+    <style name="opensans_italic">
+        <item name="android:fontFamily">@font/opensans_italic</item>
+    </style>
+
+    <style name="opensans_light">
+        <item name="android:fontFamily">@font/opensans_light</item>
+    </style>
+
+    <style name="opensans_light_italic">
+        <item name="android:fontFamily">@font/opensans_lightitalic</item>
+    </style>
+
+    <style name="opensans_regular">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="opensans_semi_bold">
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="opensans_semi_bold_italic">
+        <item name="android:fontFamily">@font/opensans_semibolditalic</item>
+    </style>
+    <!-- fonts family ends -->
+
+    <style name="opensans_light_color">
+        <item name="android:fontFamily">@font/opensans_light</item>
+        <item name="android:textColor">@color/colorPlain</item>
+    </style>
+
+    <style name="boldText">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#99CC00</item>
+    </style>
+
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#33B5E5</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
